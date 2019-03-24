@@ -1,0 +1,33 @@
+{
+  "name": "tothesea-parcel",
+  "version": "1.0.0",
+  "description": "To The Sea - React and Parcel version",
+  "main": "index.js",
+  "scripts": {
+    "dev": "parcel app/index.html",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/migcarva/tothesea-parcel.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/migcarva/tothesea-parcel/issues"
+  },
+  "homepage": "https://github.com/migcarva/tothesea-parcel#readme",
+  "dependencies": {
+    "react": "^16.8.5",
+    "react-dom": "^16.8.5",
+    "react-helmet-async": "^1.0.2",
+    "react-imported-component": "^5.5.3",
+    "react-router": "^5.0.0",
+    "react-router-dom": "^5.0.0",
+    "styled-components": "^4.2.0"
+  },
+  "devDependencies": {
+    "parcel-bundler": "^1.12.3",
+    "react-hot-loader": "^4.8.0"
+  }
+}

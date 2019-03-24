@@ -1,9 +1,11 @@
 /* eslint-disable */
 /* tslint:disable */
 
-import { assignImportedComponents } from 'react-imported-component'
+import { assignImportedComponents } from 'react-imported-component';
 
-const applicationImports = [() => import('./pages/About')]
+const applicationImports = [
+  () => import('./pages/About'),
+];
 
-assignImportedComponents(applicationImports)
-export default applicationImports
+assignImportedComponents(applicationImports);
+export default applicationImports;

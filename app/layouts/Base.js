@@ -6,11 +6,9 @@ import Container from './_Container'
 
 const Base = styled.div``
 
-export default ({children}) => (
+export default ({ children }) => (
   <Base>
     <Header />
-    <Container>
-      {children}
-    </Container>
+    <Container>{children}</Container>
   </Base>
 )

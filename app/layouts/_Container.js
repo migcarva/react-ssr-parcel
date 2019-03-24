@@ -11,8 +11,4 @@ const Container = styled.main`
   align-items: center;
 `
 
-export default ({children}) => (
-  <Container>
-    {children}
-  </Container>
-)
+export default ({ children }) => <Container>{children}</Container>

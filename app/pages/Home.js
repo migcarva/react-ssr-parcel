@@ -8,9 +8,7 @@ const Home = () => (
     <Helmet>
       <title>Home Page</title>
     </Helmet>
-    <section>
-      This is the home page
-    </section>
+    <section>This is the home page</section>
   </Base>
 )
 export default Home

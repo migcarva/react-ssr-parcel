@@ -8,10 +8,7 @@ const About = () => (
     <Helmet>
       <title>About Page</title>
     </Helmet>
-    <section>
-      This is the about page
-    </section>
-
+    <section>This is the about page</section>
   </Base>
 )
 export default About

@@ -8,9 +8,9 @@ const About = () => (
     <Helmet>
       <title>About Page</title>
     </Helmet>
-    <div>
+    <section>
       This is the about page
-    </div>
+    </section>
 
   </Base>
 )

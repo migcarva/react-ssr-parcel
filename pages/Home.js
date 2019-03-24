@@ -8,9 +8,9 @@ const Home = () => (
     <Helmet>
       <title>Home Page</title>
     </Helmet>
-    <main>
+    <section>
       Follow me at <a href="https://medium.com/@migcarva">@migcarva</a>
-    </main>
+    </section>
   </Base>
 )
 export default Home

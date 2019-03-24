@@ -14,15 +14,19 @@
   "transformIgnorePatterns": ["/node_modules/"],
   "coverageThreshold": {
     "global": {
-      "branches": 10,
-      "functions": 10,
-      "lines": 10,
-      "statements": 10
+      "branches": 100,
+      "functions": 100,
+      "lines": 100,
+      "statements": 100
     }
   },
   "collectCoverage": true,
   "collectCoverageFrom" : [
     "**/*.{js,jsx}"
   ],
-  "setupFilesAfterEnv": ["<rootDir>/__tests__/setup.js"]
+  "setupFilesAfterEnv": ["<rootDir>/__tests__/setup.js"],
+  "coveragePathIgnorePatterns": [
+    "<rootDir>/app/imported.js",
+    "/node_modules/"
+  ]
 }

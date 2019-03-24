@@ -2,7 +2,7 @@ import React from 'react'
 import styled from 'styled-components'
 
 import Header from '../components/Header'
-import Container from '../layouts/_Container'
+import Container from './_Container'
 
 const Base = styled.div``
 

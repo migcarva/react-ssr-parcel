@@ -23,5 +23,6 @@
   "collectCoverage": true,
   "collectCoverageFrom" : [
     "**/*.{js,jsx}"
-  ]
+  ],
+  "setupFilesAfterEnv": ["<rootDir>/__tests__/setup.js"]
 }

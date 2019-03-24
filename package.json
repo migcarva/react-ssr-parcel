@@ -26,6 +26,11 @@
       ]
     }
   },
+  "husky": {
+    "hooks": {
+      "pre-commit": "lint-staged && npm run test"
+    }
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/migcarva/tothesea-parcel.git"

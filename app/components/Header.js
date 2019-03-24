@@ -4,7 +4,7 @@ import { NavLink } from 'react-router-dom';
 
 const Header = styled.header`
   z-index: 100;
-  position: relative;
+  position: fixed;
   top: 0;
   left: 0;
   right: 0;

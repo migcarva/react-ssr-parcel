@@ -9,7 +9,7 @@ const Home = () => (
       <title>Home Page</title>
     </Helmet>
     <section>
-      Follow me at <a href="https://medium.com/@migcarva">@migcarva</a>
+      This is the home page
     </section>
   </Base>
 )

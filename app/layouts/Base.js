@@ -4,9 +4,7 @@ import styled from 'styled-components'
 import Header from '../components/Header'
 import Container from './_Container'
 
-const Base = styled.div`
-
-`
+const Base = styled.div``
 
 export default ({ children }) => (
   <Base>
